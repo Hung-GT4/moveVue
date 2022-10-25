@@ -13,6 +13,9 @@
     "lodash": "^4.17.21",
     "pinia": "^2.0.23",
     "vue": "^3.2.37",
+    "vue-resource": "^1.5.3",
+    "vue-route": "^1.5.1",
+    "vue-router": "^4.1.6",
     "vue-tailwind": "^2.5.1"
   },
   "devDependencies": {

@@ -1,7 +1,31 @@
-# Vue 3 + Vite
+Vue vite
+ npm create vite@latest
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Install Use Vue 
+npm i @vueuse/core 
 
-## Recommended IDE Setup
+/*Nuxt*/
+npm i -D @vueuse/nuxt @vueuse/core
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Install Lodash 
+npm i --save lodash
+
+Tailwind  
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install vue-tailwind --save
+---cf---
+  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  darkMode: false, // or 'media' or 'class'
+  
+----main.css-----
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+Axios
+npm install --save axios vue-axios
+Pinia
+npm install pinia
+/////api move//////
+http://www.omdbapi.com/?i=tt3896198&apikey=fd323335 
